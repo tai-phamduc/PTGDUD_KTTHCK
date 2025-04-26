@@ -6,6 +6,7 @@ import Slides from './components/Slides'
 import Sidebar from './components/Sidebar'
 import Chung from './components/Chung'
 import Campus from './components/Campus'
+import Info from './components/Info'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         </div>
       </div>
       <Campus/>
+      <Info />
     </>
   )
 }
