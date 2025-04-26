@@ -3,6 +3,8 @@ import TopNavBar from './components/TopNavBar'
 import Header from './components/Header'
 import Menu from './components/Menu'
 import Slides from './components/Slides'
+import Sidebar from './components/Sidebar'
+import Chung from './components/Chung'
 
 function App() {
 
@@ -12,6 +14,16 @@ function App() {
       <Header />
       <Menu />
       <Slides />
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-3 p-0">
+            <Sidebar />
+          </div>
+          <div className="col-md-9">
+            <Chung />
+          </div>
+        </div>
+      </div>
     </>
   )
 }
