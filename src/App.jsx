@@ -5,6 +5,7 @@ import Menu from './components/Menu'
 import Slides from './components/Slides'
 import Sidebar from './components/Sidebar'
 import Chung from './components/Chung'
+import Campus from './components/Campus'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Campus/>
     </>
   )
 }
