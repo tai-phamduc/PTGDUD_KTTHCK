@@ -7,6 +7,7 @@ import Sidebar from './components/Sidebar'
 import Chung from './components/Chung'
 import Campus from './components/Campus'
 import Info from './components/Info'
+import BottomBar from './components/BottomBar'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       </div>
       <Campus/>
       <Info />
+      <BottomBar/>
     </>
   )
 }
