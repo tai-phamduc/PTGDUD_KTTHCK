@@ -8,6 +8,7 @@ import Chung from './components/Chung'
 import Campus from './components/Campus'
 import Info from './components/Info'
 import BottomBar from './components/BottomBar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <Campus/>
       <Info />
       <BottomBar/>
+      <Footer/>
     </>
   )
 }
