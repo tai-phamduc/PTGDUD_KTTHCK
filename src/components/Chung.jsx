@@ -19,7 +19,7 @@ const NewsSection = () => {
     },
     {
       title: "TIN TỨC - SỰ KIỆN",
-      image: "https://via.placeholder.com/150", // replace with your real image
+      image: "https://iuh.edu.vn/Resource/Upload2/_thumbs/Image/2025/04/AVEVA-BANER.JPG", // replace with your real image
       items: [
         { text: "AVEVA tài trợ gói phần mềm trị giá 180.000 đô Mỹ cho Đại học Công nghiệp...", date: "25-04-2025", isNew: true },
         { text: "Hội nghị khoa học quốc tế BAIC 2025 lần 2 tại IUH - Sức mạnh AI trong...", date: "22-04-2025", isNew: true },
@@ -27,7 +27,7 @@ const NewsSection = () => {
     },
     {
       title: "HỢP TÁC QUỐC TẾ",
-      image: "https://via.placeholder.com/150", // replace with your real image
+      image: "https://iuh.edu.vn/Resource/Upload2/_thumbs/Image/2025/03/GIAOLUUVANHOA-BANNER.JPG", // replace with your real image
       items: [
         { text: "Sôi nổi loạt hoạt động Tuần lễ giao lưu văn hóa, khoa học sinh viên quốc...", date: "24-03-2025", isNew: false },
         { text: "Đại học Công nghiệp TP. HCM tham gia dự án Green Edu Seeds của quỹ Erasmus", date: "19-03-2025", isNew: false },

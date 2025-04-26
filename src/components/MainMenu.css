@@ -1,0 +1,37 @@
+/* MainMenu.css */
+
+
+/* All normal links */
+
+.navbar .nav-link {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: red;
+}
+
+
+/* Dropdown toggle (the button that opens dropdown) */
+
+.navbar .dropdown-toggle {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.navbar .dropdown-toggle:hover {
+    color: red;
+}
+
+
+/* Dropdown items inside the menu */
+
+.navbar .dropdown-menu .dropdown-item {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    color: red;
+}

@@ -16,22 +16,24 @@ function App() {
     <>
       <TopNavBar />
       <Header />
-      <Menu />
-      <Slides />
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-3 p-0">
-            <Sidebar />
-          </div>
-          <div className="col-md-9">
-            <Chung />
+      <div className="container">
+        <Menu />
+        <Slides />
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-3 p-0">
+              <Sidebar />
+            </div>
+            <div className="col-md-9">
+              <Chung />
+            </div>
           </div>
         </div>
+        <Campus/>
+        <Info />
+        <BottomBar/>
+        <Footer/>
       </div>
-      <Campus/>
-      <Info />
-      <BottomBar/>
-      <Footer/>
     </>
   )
 }
